@@ -1,6 +1,6 @@
 public class Jarra{
     private int cantidad;
-    private int capaidad;
+    private int capacidad;
     public Jarra(int capacidadInicial){
         if (capacidadInicial<=0){
             throw new RuntimeException("ERROR: no se pueden crear jarras" + "con capacidad menor o igual que cero");
